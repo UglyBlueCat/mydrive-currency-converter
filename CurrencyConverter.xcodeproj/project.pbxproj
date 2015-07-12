@@ -91,9 +91,9 @@
 				00A04F781B5288BF00A80FA5 /* Main.storyboard */,
 				00A04F7B1B5288BF00A80FA5 /* Images.xcassets */,
 				00A04F7D1B5288BF00A80FA5 /* LaunchScreen.xib */,
-				00A04F6E1B5288BF00A80FA5 /* Supporting Files */,
 				0048E9901B529F7A00462E56 /* DataHandler.h */,
 				0048E9911B529F7A00462E56 /* DataHandler.m */,
+				00A04F6E1B5288BF00A80FA5 /* Supporting Files */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";

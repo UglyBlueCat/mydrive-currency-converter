@@ -86,8 +86,6 @@
     // Nearly forgot US dollars..
     [self.currencies addObject:@"USD"];
     [self.dollarValues setObject:@"1" forKey:@"USD"];
-    NSLog(@"%s\n\ncurrencies:\n%@", __PRETTY_FUNCTION__, self.currencies);
-    NSLog(@"%s\n\ndollarValues:\n%@", __PRETTY_FUNCTION__, self.dollarValues);
 }
 
 // Give a conversion rate from one curency to another
