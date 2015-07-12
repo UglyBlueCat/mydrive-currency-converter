@@ -49,6 +49,6 @@ I believe I have covered all of the bonuses:
 - A file is saved to store offline data, which is used when offline.
 
 ## additional questions
-- I don't keep up with the latest ios development practices as I am still learning ios development.
-- I don't trust third party libraries as they have no support structure and the licencing could cause issues.
+- I don't keep up with the latest ios development practices as I am still learning ios development, although I am learning swift. I prefer to read the release notes of new versions of ios etc as it is free of marketing.
+- I don't trust third party libraries as they have no support structure and the licencing could cause issues. I prefer to develop everything in house; it may take longer, but it is more dependable.
 - The only tools I use are xcode and sourcetree and I could easily live without sourcetree.
