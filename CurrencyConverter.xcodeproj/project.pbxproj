@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0048E9921B529F7A00462E56 /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0048E9911B529F7A00462E56 /* DataHandler.m */; };
 		00A04F711B5288BF00A80FA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A04F701B5288BF00A80FA5 /* main.m */; };
 		00A04F741B5288BF00A80FA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A04F731B5288BF00A80FA5 /* AppDelegate.m */; };
 		00A04F771B5288BF00A80FA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A04F761B5288BF00A80FA5 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0048E9901B529F7A00462E56 /* DataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandler.h; sourceTree = "<group>"; };
+		0048E9911B529F7A00462E56 /* DataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandler.m; sourceTree = "<group>"; };
 		00A04F6B1B5288BF00A80FA5 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A04F6F1B5288BF00A80FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A04F701B5288BF00A80FA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				00A04F781B5288BF00A80FA5 /* Main.storyboard */,
 				00A04F7B1B5288BF00A80FA5 /* Images.xcassets */,
 				00A04F7D1B5288BF00A80FA5 /* LaunchScreen.xib */,
+				0048E9901B529F7A00462E56 /* DataHandler.h */,
+				0048E9911B529F7A00462E56 /* DataHandler.m */,
 				00A04F6E1B5288BF00A80FA5 /* Supporting Files */,
 			);
 			path = CurrencyConverter;
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0048E9921B529F7A00462E56 /* DataHandler.m in Sources */,
 				00A04F771B5288BF00A80FA5 /* ViewController.m in Sources */,
 				00A04F741B5288BF00A80FA5 /* AppDelegate.m in Sources */,
 				00A04F711B5288BF00A80FA5 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				00A04F901B5288BF00A80FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A04F911B5288BF00A80FA5 /* Build configuration list for PBXNativeTarget "CurrencyConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				00A04F931B5288BF00A80FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

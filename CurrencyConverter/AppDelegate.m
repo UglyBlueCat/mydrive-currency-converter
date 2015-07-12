@@ -7,8 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "DataHandler.h"
+
+// In lieu of some other kind of input to avoid hardcoding the url, which could change
+#define URL @"https://raw.githubusercontent.com/mydrive/code-tests/master/iOS-currency-exchange-rates/rates.json"
 
 @interface AppDelegate ()
+
+@property DataHandler* dataHandler;
 
 @end
 
@@ -16,7 +22,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.dataHandler = [DataHandler sharedInstance];
+    NSURL* url = [NSURL URLWithString:URL];
+    [self.dataHandler loadFromURL:url];
+    
     return YES;
 }
 
