@@ -10,7 +10,10 @@
 
 @interface DataHandler : NSObject
 
+@property NSMutableArray* currencies;
+
 + (DataHandler*)sharedInstance;
 - (void)loadFromURL:(NSURL*)url;
+- (float)rateFrom:(NSString*)from To:(NSString*)to;
 
 @end
